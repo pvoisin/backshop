@@ -1,0 +1,14 @@
+{
+  "name": "bakery",
+  "version": "0.0.1",
+  "author": "Pierre Voisin <pierre.voisin@gmail.com>",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/_mocha -R list test/**/*Suite.js"
+  },
+  "dependencies": {
+    "ytility": "^0.3.2"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
+}
